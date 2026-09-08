@@ -5,30 +5,30 @@
 
 /* ---------- 1. DESIGN TOKENS ---------- */
 :root {
-  /* Colors */
-  --primary: #166534;
-  --primary-dark: #14532D;
-  --primary-darker: #0f3d22;
-  --primary-light: #DCFCE7;
-  --primary-light-2: #F0FDF4;
+  /* Colors - ปรับเป็นโทนขาว ดำ และเทา */
+  --primary: #1F2937; /* สีหลัก (เทาเข้มเกือบดำ) */
+  --primary-dark: #111827; /* สีหลักเวลาโฮเวอร์ (ดำ) */
+  --primary-darker: #000000; /* ดำสนิท */
+  --primary-light: #F3F4F6; /* สีเทาอ่อนมาก (แทนที่เขียวอ่อน) */
+  --primary-light-2: #F9FAFB; /* สีขาวออฟไวท์ (แทนที่เขียวอ่อนมาก) */
   --white: #FFFFFF;
-  --text: #1F2937;
-  --text-secondary: #6B7280;
-  --border: #E5E7EB;
-  --bg: #FFFFFF;
-  --bg-alt: #F8FAFC;
-  --danger: #B91C1C;
-  --gold: #B45309;
+  --text: #111827; /* สีตัวอักษรหลัก (ดำ) */
+  --text-secondary: #4B5563; /* สีตัวอักษรรอง (เทา) */
+  --border: #E5E7EB; /* สีเส้นขอบ */
+  --bg: #FFFFFF; /* สีพื้นหลังหลัก (ขาว) */
+  --bg-alt: #F9FAFB; /* สีพื้นหลังรอง (ขาวออฟไวท์) */
+  --danger: #DC2626;
+  --gold: #D97706;
 
   /* Radius */
   --radius-sm: 10px;
   --radius-md: 14px;
   --radius-lg: 18px;
 
-  /* Shadows */
-  --shadow-sm: 0 1px 3px rgba(15, 61, 34, 0.08), 0 1px 2px rgba(15, 61, 34, 0.06);
-  --shadow-md: 0 6px 20px rgba(15, 61, 34, 0.10);
-  --shadow-lg: 0 12px 32px rgba(15, 61, 34, 0.14);
+  /* Shadows - เปลี่ยนรหัสสีจากเขียว (15, 61, 34) เป็นดำ (0, 0, 0) */
+  --shadow-sm: 0 1px 3px rgba(0, 0, 0, 0.08), 0 1px 2px rgba(0, 0, 0, 0.06);
+  --shadow-md: 0 6px 20px rgba(0, 0, 0, 0.08);
+  --shadow-lg: 0 12px 32px rgba(0, 0, 0, 0.12);
 
   /* Layout */
   --container-w: 1240px;
