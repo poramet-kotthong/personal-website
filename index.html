@@ -1,0 +1,1022 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>[ชื่อ-นามสกุล] | Computer Science Student Portfolio</title>
+<meta name="description" content="เว็บไซต์ Personal Profile ของนักศึกษาวิทยาการคอมพิวเตอร์ มหาวิทยาลัยขอนแก่น">
+
+<!-- Fonts -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Thai:wght@400;500;600;700;800&family=Noto+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+<!-- Icons -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- ============================================================
+     HEADER / NAVIGATION
+     ============================================================ -->
+<header class="site-header" id="siteHeader">
+  <div class="container header-inner">
+    <a href="#home" class="brand">
+      <div class="brand-mark">ชช</div>
+      <div class="brand-text">
+        <div class="brand-name">[ชื่อ-นามสกุล]</div>
+        <div class="brand-role">Computer Science Student</div>
+      </div>
+    </a>
+
+    <nav class="main-nav" id="mainNav" aria-label="เมนูหลัก">
+      <a href="#home" class="nav-link active">หน้าหลัก</a>
+      <a href="#about" class="nav-link">เกี่ยวกับฉัน</a>
+      <a href="#education" class="nav-link">การศึกษา</a>
+      <a href="#skills" class="nav-link">ความสามารถ</a>
+      <a href="#academic" class="nav-link">ผลการเรียน</a>
+      <a href="#experience" class="nav-link">ประสบการณ์</a>
+      <a href="#activities" class="nav-link">กิจกรรม</a>
+      <a href="#projects" class="nav-link">ผลงาน</a>
+      <a href="#certificates" class="nav-link">ใบประกาศนียบัตร</a>
+      <a href="#contact" class="nav-link">ติดต่อ</a>
+    </nav>
+
+    <div class="header-actions">
+      <div class="lang-switch" role="group" aria-label="เลือกภาษา">
+        <button type="button" class="active" data-lang="th">TH</button>
+        <button type="button" data-lang="en">EN</button>
+      </div>
+      <button class="hamburger" id="hamburgerBtn" aria-label="เปิดเมนู" aria-expanded="false">
+        <span></span>
+      </button>
+    </div>
+  </div>
+</header>
+
+<!-- Mobile Menu -->
+<div class="menu-backdrop" id="menuBackdrop"></div>
+<nav class="mobile-menu" id="mobileMenu" aria-label="เมนูมือถือ">
+  <a href="#home" class="mobile-link active">หน้าหลัก</a>
+  <a href="#about" class="mobile-link">เกี่ยวกับฉัน</a>
+  <a href="#education" class="mobile-link">การศึกษา</a>
+  <a href="#skills" class="mobile-link">ความสามารถ</a>
+  <a href="#academic" class="mobile-link">ผลการเรียน</a>
+  <a href="#experience" class="mobile-link">ประสบการณ์</a>
+  <a href="#activities" class="mobile-link">กิจกรรมมหาวิทยาลัย</a>
+  <a href="#projects" class="mobile-link">ผลงาน</a>
+  <a href="#certificates" class="mobile-link">ใบประกาศนียบัตร</a>
+  <a href="#goals" class="mobile-link">เป้าหมาย</a>
+  <a href="#contact" class="mobile-link">ติดต่อ</a>
+</nav>
+
+<main>
+
+<!-- ============================================================
+     HERO SECTION
+     ============================================================ -->
+<section class="hero" id="home">
+  <div class="container hero-grid">
+    <div class="hero-text">
+      <p class="hero-greeting">สวัสดีครับ / Hello, I'm</p>
+      <h1>[ชื่อ-นามสกุล]</h1>
+      <p class="hero-role">Computer Science Student</p>
+      <p class="hero-university"><i class="fa-solid fa-graduation-cap"></i> คณะวิทยาการคอมพิวเตอร์ มหาวิทยาลัยขอนแก่น</p>
+      <p class="hero-desc">
+        นักศึกษาวิทยาการคอมพิวเตอร์ที่สนใจเทคโนโลยี การพัฒนาเว็บไซต์ Data
+        และ UX/UI พร้อมเรียนรู้และพัฒนาทักษะอย่างต่อเนื่อง
+      </p>
+      <div class="hero-actions">
+        <a href="#about" class="btn btn-primary"><i class="fa-solid fa-user"></i> เกี่ยวกับฉัน</a>
+        <a href="#projects" class="btn btn-outline"><i class="fa-solid fa-diagram-project"></i> ดูผลงาน</a>
+      </div>
+      <div class="hero-stats">
+        <div class="stat"><strong>3.63</strong><span>GPA สะสม</span></div>
+        <div class="stat"><strong>[X]</strong><span>Projects</span></div>
+        <div class="stat"><strong>[X]</strong><span>กิจกรรมที่เข้าร่วม</span></div>
+        <div class="stat"><strong>[X]</strong><span>ใบประกาศนียบัตร</span></div>
+      </div>
+    </div>
+
+    <div class="hero-visual">
+      <div class="hero-decor-1" aria-hidden="true"></div>
+      <div class="hero-photo-frame">
+        <div class="placeholder-photo">
+          <i class="fa-solid fa-user-large" style="font-size:3rem;"></i>
+          <span>[รูปโปรไฟล์]</span>
+        </div>
+      </div>
+      <div class="hero-badge">
+        <i class="fa-solid fa-shield-halved"></i>
+        <div>
+          <strong>Computer Science</strong>
+          <span>Khon Kaen University</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============================================================
+     QUICK ACCESS SECTION
+     ============================================================ -->
+<section class="quick-access">
+  <div class="container">
+    <div class="section-heading reveal">
+      <div class="icon-badge"><i class="fa-solid fa-table-cells-large"></i></div>
+      <h2>เข้าถึงข้อมูลอย่างรวดเร็ว</h2>
+      <p>เลือกหัวข้อที่สนใจเพื่อดูข้อมูลโดยละเอียด</p>
+      <div class="section-accent-line"></div>
+    </div>
+
+    <div class="quick-grid">
+      <a href="#about" class="quick-card reveal">
+        <div class="qc-icon"><i class="fa-solid fa-id-card"></i></div>
+        <h3>ข้อมูลส่วนตัว</h3>
+        <p>ประวัติ ความสนใจ และเป้าหมายของฉัน</p>
+        <span class="qc-arrow">ดูรายละเอียด <i class="fa-solid fa-arrow-right"></i></span>
+      </a>
+      <a href="#education" class="quick-card reveal">
+        <div class="qc-icon"><i class="fa-solid fa-graduation-cap"></i></div>
+        <h3>การศึกษา</h3>
+        <p>ประวัติการศึกษาและข้อมูลหลักสูตร</p>
+        <span class="qc-arrow">ดูรายละเอียด <i class="fa-solid fa-arrow-right"></i></span>
+      </a>
+      <a href="#skills" class="quick-card reveal">
+        <div class="qc-icon"><i class="fa-solid fa-code"></i></div>
+        <h3>ทักษะ</h3>
+        <p>ความสามารถด้าน Programming, Data และ UX/UI</p>
+        <span class="qc-arrow">ดูรายละเอียด <i class="fa-solid fa-arrow-right"></i></span>
+      </a>
+      <a href="#experience" class="quick-card reveal">
+        <div class="qc-icon"><i class="fa-solid fa-briefcase"></i></div>
+        <h3>ประสบการณ์</h3>
+        <p>ประสบการณ์ทำโครงการและทำงานร่วมกับผู้อื่น</p>
+        <span class="qc-arrow">ดูรายละเอียด <i class="fa-solid fa-arrow-right"></i></span>
+      </a>
+      <a href="#activities" class="quick-card reveal">
+        <div class="qc-icon"><i class="fa-solid fa-people-group"></i></div>
+        <h3>กิจกรรม</h3>
+        <p>กิจกรรมมหาวิทยาลัยและกิจกรรมจิตอาสา</p>
+        <span class="qc-arrow">ดูรายละเอียด <i class="fa-solid fa-arrow-right"></i></span>
+      </a>
+      <a href="#projects" class="quick-card reveal">
+        <div class="qc-icon"><i class="fa-solid fa-diagram-project"></i></div>
+        <h3>ผลงาน</h3>
+        <p>โครงการและผลงานที่ได้พัฒนา</p>
+        <span class="qc-arrow">ดูรายละเอียด <i class="fa-solid fa-arrow-right"></i></span>
+      </a>
+    </div>
+  </div>
+</section>
+
+<div class="section-divider"></div>
+
+<!-- ============================================================
+     ABOUT ME
+     ============================================================ -->
+<section class="section" id="about">
+  <div class="container">
+    <div class="section-heading reveal">
+      <div class="icon-badge"><i class="fa-solid fa-user"></i></div>
+      <h2>เกี่ยวกับฉัน</h2>
+      <p>รู้จักฉันให้มากขึ้นผ่านข้อมูลพื้นฐานและความสนใจส่วนตัว</p>
+      <div class="section-accent-line"></div>
+    </div>
+
+    <div class="about-grid reveal">
+      <div class="about-photo">
+        <i class="fa-solid fa-image" style="font-size:2.4rem;"></i>
+        <span>[รูปโปรไฟล์]</span>
+      </div>
+      <div class="about-info">
+        <h3>ข้อมูลพื้นฐาน</h3>
+        <table class="info-table">
+          <tr><td>ชื่อ-นามสกุล</td><td>[ชื่อ-นามสกุล]</td></tr>
+          <tr><td>ชื่อเล่น</td><td>[ชื่อเล่น]</td></tr>
+          <tr><td>สาขาวิชา</td><td>วิทยาการคอมพิวเตอร์ (Computer Science)</td></tr>
+          <tr><td>มหาวิทยาลัย</td><td>มหาวิทยาลัยขอนแก่น</td></tr>
+          <tr><td>ชั้นปี</td><td>ชั้นปีที่ [X]</td></tr>
+          <tr><td>ความสนใจ</td><td>Web Development, Data, UX/UI Design</td></tr>
+          <tr><td>เป้าหมาย</td><td>เป็น Professional Developer ที่สร้างสรรค์เทคโนโลยีที่มีประโยชน์</td></tr>
+          <tr><td>งานอดิเรก</td><td>[งานอดิเรก]</td></tr>
+        </table>
+      </div>
+    </div>
+
+    <div class="about-cards reveal">
+      <div class="info-card">
+        <div class="ic-icon"><i class="fa-solid fa-heart"></i></div>
+        <h4>สิ่งที่สนใจ</h4>
+        <ul>
+          <li>การพัฒนาเว็บไซต์ (Web Development)</li>
+          <li>การวิเคราะห์และจัดการข้อมูล (Data)</li>
+          <li>การออกแบบประสบการณ์ผู้ใช้ (UX/UI)</li>
+        </ul>
+      </div>
+      <div class="info-card">
+        <div class="ic-icon"><i class="fa-solid fa-arrow-trend-up"></i></div>
+        <h4>สิ่งที่กำลังพัฒนา</h4>
+        <ul>
+          <li>ทักษะการเขียนโปรแกรมเชิงระบบ</li>
+          <li>การออกแบบ Prototype และ User Flow</li>
+          <li>การวิเคราะห์ข้อมูลด้วย Python</li>
+        </ul>
+      </div>
+      <div class="info-card">
+        <div class="ic-icon"><i class="fa-solid fa-flag-checkered"></i></div>
+        <h4>เป้าหมายในอนาคต</h4>
+        <ul>
+          <li>ทำงานด้าน Software / Data / Technology</li>
+          <li>พัฒนาตัวเองเป็น Professional Developer</li>
+          <li>สร้างเทคโนโลยีที่ช่วยแก้ปัญหาให้ผู้ใช้จริง</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============================================================
+     EDUCATION
+     ============================================================ -->
+<section class="section section-alt" id="education">
+  <div class="container">
+    <div class="section-heading reveal">
+      <div class="icon-badge"><i class="fa-solid fa-graduation-cap"></i></div>
+      <h2>ประวัติการศึกษา</h2>
+      <p>เส้นทางการศึกษาตั้งแต่ระดับมัธยมจนถึงมหาวิทยาลัย</p>
+      <div class="section-accent-line"></div>
+    </div>
+
+    <div class="timeline reveal">
+      <div class="timeline-item">
+        <div class="timeline-dot"><i class="fa-solid fa-school"></i></div>
+        <div class="timeline-card">
+          <span class="tl-period">พ.ศ. [XXXX] – [XXXX]</span>
+          <h3>ระดับมัธยมศึกษา</h3>
+          <p class="tl-sub">โรงเรียน [ชื่อโรงเรียน] · แผนการเรียน [วิทย์-คณิต]</p>
+        </div>
+      </div>
+      <div class="timeline-item">
+        <div class="timeline-dot"><i class="fa-solid fa-building-columns"></i></div>
+        <div class="timeline-card">
+          <span class="tl-period">พ.ศ. [XXXX] – ปัจจุบัน</span>
+          <h3>ระดับมหาวิทยาลัย</h3>
+          <p class="tl-sub">มหาวิทยาลัยขอนแก่น · หลักสูตรวิทยาการคอมพิวเตอร์</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="edu-detail-cards reveal">
+      <div class="stat-card">
+        <strong>วิทยาการคอมพิวเตอร์</strong>
+        <span>สาขาวิชา</span>
+      </div>
+      <div class="stat-card">
+        <strong>ชั้นปีที่ [X]</strong>
+        <span>ระดับการศึกษาปัจจุบัน</span>
+      </div>
+      <div class="stat-card">
+        <strong>3.63</strong>
+        <span>เกรดเฉลี่ยสะสม (GPA)</span>
+      </div>
+      <div class="stat-card">
+        <strong>Web / Data</strong>
+        <span>วิชาที่สนใจ</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============================================================
+     SKILLS
+     ============================================================ -->
+<section class="section" id="skills">
+  <div class="container">
+    <div class="section-heading reveal">
+      <div class="icon-badge"><i class="fa-solid fa-laptop-code"></i></div>
+      <h2>ความสามารถและทักษะ</h2>
+      <p>ทักษะด้านการเขียนโปรแกรม การพัฒนาเว็บไซต์ ข้อมูล และการออกแบบ</p>
+      <div class="section-accent-line"></div>
+    </div>
+
+    <div class="skills-grid reveal">
+
+      <div class="skill-category">
+        <div class="skill-category-head">
+          <div class="sc-icon"><i class="fa-solid fa-terminal"></i></div>
+          <h3>Programming</h3>
+        </div>
+        <div class="skill-row" data-level="75">
+          <div class="skill-row-top"><span class="skill-name"><i class="fa-brands fa-python"></i>Python</span><span class="skill-level-tag">Intermediate</span></div>
+          <div class="skill-bar-track"><div class="skill-bar-fill"></div></div>
+        </div>
+        <div class="skill-row" data-level="55">
+          <div class="skill-row-top"><span class="skill-name"><i class="fa-solid fa-c"></i>C</span><span class="skill-level-tag">Beginner</span></div>
+          <div class="skill-bar-track"><div class="skill-bar-fill"></div></div>
+        </div>
+        <div class="skill-row" data-level="55">
+          <div class="skill-row-top"><span class="skill-name"><i class="fa-brands fa-java"></i>Java</span><span class="skill-level-tag">Beginner</span></div>
+          <div class="skill-bar-track"><div class="skill-bar-fill"></div></div>
+        </div>
+      </div>
+
+      <div class="skill-category">
+        <div class="skill-category-head">
+          <div class="sc-icon"><i class="fa-solid fa-globe"></i></div>
+          <h3>Web Development</h3>
+        </div>
+        <div class="skill-row" data-level="85">
+          <div class="skill-row-top"><span class="skill-name"><i class="fa-brands fa-html5"></i>HTML</span><span class="skill-level-tag">Advanced</span></div>
+          <div class="skill-bar-track"><div class="skill-bar-fill"></div></div>
+        </div>
+        <div class="skill-row" data-level="80">
+          <div class="skill-row-top"><span class="skill-name"><i class="fa-brands fa-css3-alt"></i>CSS</span><span class="skill-level-tag">Advanced</span></div>
+          <div class="skill-bar-track"><div class="skill-bar-fill"></div></div>
+        </div>
+        <div class="skill-row" data-level="70">
+          <div class="skill-row-top"><span class="skill-name"><i class="fa-brands fa-js"></i>JavaScript</span><span class="skill-level-tag">Intermediate</span></div>
+          <div class="skill-bar-track"><div class="skill-bar-fill"></div></div>
+        </div>
+      </div>
+
+      <div class="skill-category">
+        <div class="skill-category-head">
+          <div class="sc-icon"><i class="fa-solid fa-chart-line"></i></div>
+          <h3>Data</h3>
+        </div>
+        <div class="skill-row" data-level="70">
+          <div class="skill-row-top"><span class="skill-name"><i class="fa-brands fa-python"></i>Python</span><span class="skill-level-tag">Intermediate</span></div>
+          <div class="skill-bar-track"><div class="skill-bar-fill"></div></div>
+        </div>
+        <div class="skill-row" data-level="60">
+          <div class="skill-row-top"><span class="skill-name"><i class="fa-solid fa-square-root-variable"></i>NumPy</span><span class="skill-level-tag">Beginner</span></div>
+          <div class="skill-bar-track"><div class="skill-bar-fill"></div></div>
+        </div>
+        <div class="skill-row" data-level="60">
+          <div class="skill-row-top"><span class="skill-name"><i class="fa-solid fa-table"></i>Pandas</span><span class="skill-level-tag">Beginner</span></div>
+          <div class="skill-bar-track"><div class="skill-bar-fill"></div></div>
+        </div>
+        <div class="skill-row" data-level="65">
+          <div class="skill-row-top"><span class="skill-name"><i class="fa-solid fa-chart-simple"></i>Power BI</span><span class="skill-level-tag">Intermediate</span></div>
+          <div class="skill-bar-track"><div class="skill-bar-fill"></div></div>
+        </div>
+      </div>
+
+      <div class="skill-category">
+        <div class="skill-category-head">
+          <div class="sc-icon"><i class="fa-solid fa-pen-ruler"></i></div>
+          <h3>UX/UI</h3>
+        </div>
+        <div class="skill-row" data-level="70">
+          <div class="skill-row-top"><span class="skill-name"><i class="fa-solid fa-object-group"></i>Wireframe</span><span class="skill-level-tag">Intermediate</span></div>
+          <div class="skill-bar-track"><div class="skill-bar-fill"></div></div>
+        </div>
+        <div class="skill-row" data-level="65">
+          <div class="skill-row-top"><span class="skill-name"><i class="fa-solid fa-shapes"></i>Prototype</span><span class="skill-level-tag">Intermediate</span></div>
+          <div class="skill-bar-track"><div class="skill-bar-fill"></div></div>
+        </div>
+        <div class="skill-row" data-level="65">
+          <div class="skill-row-top"><span class="skill-name"><i class="fa-solid fa-route"></i>User Flow</span><span class="skill-level-tag">Intermediate</span></div>
+          <div class="skill-bar-track"><div class="skill-bar-fill"></div></div>
+        </div>
+        <div class="skill-row" data-level="60">
+          <div class="skill-row-top"><span class="skill-name"><i class="fa-solid fa-user-tag"></i>Persona</span><span class="skill-level-tag">Beginner</span></div>
+          <div class="skill-bar-track"><div class="skill-bar-fill"></div></div>
+        </div>
+        <div class="skill-row" data-level="55">
+          <div class="skill-row-top"><span class="skill-name"><i class="fa-solid fa-cubes"></i>BMC</span><span class="skill-level-tag">Beginner</span></div>
+          <div class="skill-bar-track"><div class="skill-bar-fill"></div></div>
+        </div>
+        <div class="skill-row" data-level="55">
+          <div class="skill-row-top"><span class="skill-name"><i class="fa-solid fa-cube"></i>VPC</span><span class="skill-level-tag">Beginner</span></div>
+          <div class="skill-bar-track"><div class="skill-bar-fill"></div></div>
+        </div>
+      </div>
+
+      <div class="skill-category">
+        <div class="skill-category-head">
+          <div class="sc-icon"><i class="fa-solid fa-toolbox"></i></div>
+          <h3>Tools</h3>
+        </div>
+        <div class="skill-row" data-level="75">
+          <div class="skill-row-top"><span class="skill-name"><i class="fa-brands fa-git-alt"></i>Git / GitHub</span><span class="skill-level-tag">Intermediate</span></div>
+          <div class="skill-bar-track"><div class="skill-bar-fill"></div></div>
+        </div>
+        <div class="skill-row" data-level="80">
+          <div class="skill-row-top"><span class="skill-name"><i class="fa-solid fa-palette"></i>Canva</span><span class="skill-level-tag">Advanced</span></div>
+          <div class="skill-bar-track"><div class="skill-bar-fill"></div></div>
+        </div>
+        <div class="skill-row" data-level="65">
+          <div class="skill-row-top"><span class="skill-name"><i class="fa-brands fa-figma"></i>Figma</span><span class="skill-level-tag">Intermediate</span></div>
+          <div class="skill-bar-track"><div class="skill-bar-fill"></div></div>
+        </div>
+        <div class="skill-row" data-level="75">
+          <div class="skill-row-top"><span class="skill-name"><i class="fa-solid fa-code"></i>VS Code</span><span class="skill-level-tag">Intermediate</span></div>
+          <div class="skill-bar-track"><div class="skill-bar-fill"></div></div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ============================================================
+     ACADEMIC PERFORMANCE
+     ============================================================ -->
+<section class="section section-alt" id="academic">
+  <div class="container">
+    <div class="section-heading reveal">
+      <div class="icon-badge"><i class="fa-solid fa-chart-column"></i></div>
+      <h2>ผลการเรียน</h2>
+      <p>ภาพรวมผลการเรียนตลอดการศึกษาในระดับมหาวิทยาลัย</p>
+      <div class="section-accent-line"></div>
+    </div>
+
+    <div class="dash-grid reveal">
+      <div class="dash-card">
+        <div class="dc-label">เกรดเฉลี่ยสะสม (GPA)</div>
+        <div class="dc-value">3.63</div>
+      </div>
+      <div class="dash-card">
+        <div class="dc-label">จำนวนวิชาที่ผ่าน</div>
+        <div class="dc-value">[XX] <span>วิชา</span></div>
+      </div>
+      <div class="dash-card">
+        <div class="dc-label">วิชาที่ถนัด</div>
+        <div class="dc-value" style="font-size:1.3rem;">[Programming]</div>
+      </div>
+      <div class="dash-card">
+        <div class="dc-label">ภาคการศึกษาปัจจุบัน</div>
+        <div class="dc-value" style="font-size:1.3rem;">ปีที่ [X] เทอม [X]</div>
+      </div>
+    </div>
+
+    <div class="gpa-chart-card reveal">
+      <h3>เกรดเฉลี่ยรายภาคการศึกษา (GPA per Semester)</h3>
+      <div class="gpa-chart" id="gpaChart">
+        <div class="gpa-bar-wrap"><span class="gpa-bar-value">3.40</span><div class="gpa-bar" data-height="68"></div><span class="gpa-bar-label">ปี 1<br>เทอม 1</span></div>
+        <div class="gpa-bar-wrap"><span class="gpa-bar-value">3.50</span><div class="gpa-bar" data-height="70"></div><span class="gpa-bar-label">ปี 1<br>เทอม 2</span></div>
+        <div class="gpa-bar-wrap"><span class="gpa-bar-value">3.55</span><div class="gpa-bar" data-height="71"></div><span class="gpa-bar-label">ปี 2<br>เทอม 1</span></div>
+        <div class="gpa-bar-wrap"><span class="gpa-bar-value">3.60</span><div class="gpa-bar" data-height="72"></div><span class="gpa-bar-label">ปี 2<br>เทอม 2</span></div>
+        <div class="gpa-bar-wrap"><span class="gpa-bar-value">3.65</span><div class="gpa-bar" data-height="73"></div><span class="gpa-bar-label">ปี 3<br>เทอม 1</span></div>
+        <div class="gpa-bar-wrap"><span class="gpa-bar-value">3.63</span><div class="gpa-bar" data-height="72.6"></div><span class="gpa-bar-label">ปี 3<br>เทอม 2</span></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============================================================
+     EXPERIENCE
+     ============================================================ -->
+<section class="section" id="experience">
+  <div class="container">
+    <div class="section-heading reveal">
+      <div class="icon-badge"><i class="fa-solid fa-briefcase"></i></div>
+      <h2>ประสบการณ์</h2>
+      <p>ประสบการณ์การทำโครงการ การทำงานเป็นทีม และการเรียนรู้ด้านเทคโนโลยี</p>
+      <div class="section-accent-line"></div>
+    </div>
+
+    <div class="exp-list reveal">
+      <div class="exp-card">
+        <div class="exp-side">
+          <span class="exp-category-tag">ประสบการณ์การทำ Project</span>
+          <div class="exp-period"><i class="fa-regular fa-calendar"></i> [เดือน/ปี] – [เดือน/ปี]</div>
+          <div class="exp-role">บทบาท: Developer</div>
+        </div>
+        <div class="exp-main">
+          <h3>Project Development</h3>
+          <p class="exp-desc">ร่วมพัฒนา Project ด้านเทคโนโลยี วิเคราะห์ปัญหา ออกแบบระบบ และพัฒนา Solution ร่วมกับทีม ตั้งแต่ขั้นตอนวางแผนจนถึงการนำเสนอผลงาน</p>
+          <div class="exp-skills">
+            <span class="exp-skill-chip">Problem Solving</span>
+            <span class="exp-skill-chip">System Design</span>
+            <span class="exp-skill-chip">Web Development</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="exp-card">
+        <div class="exp-side">
+          <span class="exp-category-tag">ประสบการณ์การทำงานเป็นทีม</span>
+          <div class="exp-period"><i class="fa-regular fa-calendar"></i> [เดือน/ปี] – [เดือน/ปี]</div>
+          <div class="exp-role">บทบาท: Team Member</div>
+        </div>
+        <div class="exp-main">
+          <h3>[ชื่องาน/โครงการกลุ่ม]</h3>
+          <p class="exp-desc">ทำงานร่วมกับเพื่อนในทีมเพื่อแบ่งหน้าที่ความรับผิดชอบ ประสานงาน และแก้ไขปัญหาร่วมกันจนงานสำเร็จตามเป้าหมายที่วางไว้</p>
+          <div class="exp-skills">
+            <span class="exp-skill-chip">Teamwork</span>
+            <span class="exp-skill-chip">Communication</span>
+            <span class="exp-skill-chip">Time Management</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="exp-card">
+        <div class="exp-side">
+          <span class="exp-category-tag">ประสบการณ์ด้าน Technology</span>
+          <div class="exp-period"><i class="fa-regular fa-calendar"></i> [เดือน/ปี] – [เดือน/ปี]</div>
+          <div class="exp-role">บทบาท: Workshop Participant</div>
+        </div>
+        <div class="exp-main">
+          <h3>[ชื่อกิจกรรม/อบรมด้านเทคโนโลยี]</h3>
+          <p class="exp-desc">เข้าร่วมอบรมเชิงปฏิบัติการเพื่อพัฒนาความรู้ด้านเทคโนโลยีใหม่ ๆ และนำความรู้มาประยุกต์ใช้ในการเรียนและการทำโครงการ</p>
+          <div class="exp-skills">
+            <span class="exp-skill-chip">Continuous Learning</span>
+            <span class="exp-skill-chip">Technical Skills</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="exp-card">
+        <div class="exp-side">
+          <span class="exp-category-tag">Student Organization</span>
+          <div class="exp-period"><i class="fa-regular fa-calendar"></i> [เดือน/ปี] – [เดือน/ปี]</div>
+          <div class="exp-role">บทบาท: [ตำแหน่ง]</div>
+        </div>
+        <div class="exp-main">
+          <h3>[ชื่อองค์กรนักศึกษา/ชมรม]</h3>
+          <p class="exp-desc">มีส่วนร่วมในการบริหารจัดการกิจกรรมของสโมสรนักศึกษา วางแผนงาน ประสานงานกับหน่วยงานต่าง ๆ และดูแลการดำเนินงานให้เป็นไปตามแผน</p>
+          <div class="exp-skills">
+            <span class="exp-skill-chip">Leadership</span>
+            <span class="exp-skill-chip">Event Planning</span>
+            <span class="exp-skill-chip">Coordination</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============================================================
+     UNIVERSITY ACTIVITIES
+     ============================================================ -->
+<section class="section section-alt" id="activities">
+  <div class="container">
+    <div class="section-heading reveal">
+      <div class="icon-badge"><i class="fa-solid fa-people-group"></i></div>
+      <h2>กิจกรรมมหาวิทยาลัย</h2>
+      <p>ประสบการณ์การเข้าร่วมกิจกรรมต่าง ๆ ในรั้วมหาวิทยาลัย</p>
+      <div class="section-accent-line"></div>
+    </div>
+
+    <div class="filter-bar reveal" id="activityFilter">
+      <button class="filter-btn active" data-filter="all">ทั้งหมด</button>
+      <button class="filter-btn" data-filter="university">มหาวิทยาลัย</button>
+      <button class="filter-btn" data-filter="faculty">คณะ</button>
+      <button class="filter-btn" data-filter="club">สโมสรนักศึกษา</button>
+      <button class="filter-btn" data-filter="volunteer">จิตอาสา</button>
+      <button class="filter-btn" data-filter="training">อบรม</button>
+      <button class="filter-btn" data-filter="competition">แข่งขัน</button>
+    </div>
+
+    <div class="card-grid-3 reveal" id="activityGrid">
+
+      <div class="activity-card" data-category="club">
+        <div class="ac-image"><span class="ac-cat-badge">สโมสรนักศึกษา</span><i class="fa-solid fa-users"></i></div>
+        <div class="ac-body">
+          <div class="ac-meta"><span><i class="fa-regular fa-calendar"></i> [วันที่]</span><span><i class="fa-solid fa-location-dot"></i> [สถานที่]</span></div>
+          <h3>กิจกรรมสโมสรนักศึกษา</h3>
+          <p class="ac-role">บทบาท: ทีมงาน / ฝ่ายปฏิบัติงาน</p>
+          <p class="ac-desc">มีส่วนร่วมในการวางแผนและดำเนินกิจกรรมของมหาวิทยาลัย ประสานงานกับสมาชิกในทีม และช่วยดูแลการดำเนินงานภายในกิจกรรม</p>
+          <p class="ac-gain"><i class="fa-solid fa-star"></i> ได้รับ: ทักษะการทำงานเป็นทีมและการประสานงาน</p>
+        </div>
+      </div>
+
+      <div class="activity-card" data-category="university">
+        <div class="ac-image"><span class="ac-cat-badge">มหาวิทยาลัย</span><i class="fa-solid fa-flag"></i></div>
+        <div class="ac-body">
+          <div class="ac-meta"><span><i class="fa-regular fa-calendar"></i> [วันที่]</span><span><i class="fa-solid fa-location-dot"></i> [สถานที่]</span></div>
+          <h3>[ชื่อกิจกรรมมหาวิทยาลัย]</h3>
+          <p class="ac-role">บทบาท: ผู้เข้าร่วม</p>
+          <p class="ac-desc">เข้าร่วมกิจกรรมระดับมหาวิทยาลัย เพื่อสร้างเครือข่ายและเรียนรู้ประสบการณ์นอกห้องเรียน</p>
+          <p class="ac-gain"><i class="fa-solid fa-star"></i> ได้รับ: ประสบการณ์และเครือข่ายความสัมพันธ์</p>
+        </div>
+      </div>
+
+      <div class="activity-card" data-category="volunteer">
+        <div class="ac-image"><span class="ac-cat-badge">จิตอาสา</span><i class="fa-solid fa-hand-holding-heart"></i></div>
+        <div class="ac-body">
+          <div class="ac-meta"><span><i class="fa-regular fa-calendar"></i> [วันที่]</span><span><i class="fa-solid fa-location-dot"></i> [สถานที่]</span></div>
+          <h3>[ชื่อกิจกรรมจิตอาสา]</h3>
+          <p class="ac-role">บทบาท: อาสาสมัคร</p>
+          <p class="ac-desc">ร่วมทำกิจกรรมเพื่อสังคมและชุมชน ปลูกฝังจิตสำนึกด้านความรับผิดชอบต่อส่วนรวม</p>
+          <p class="ac-gain"><i class="fa-solid fa-star"></i> ได้รับ: จิตสำนึกสาธารณะและความเห็นอกเห็นใจ</p>
+        </div>
+      </div>
+
+      <div class="activity-card" data-category="training">
+        <div class="ac-image"><span class="ac-cat-badge">อบรม</span><i class="fa-solid fa-chalkboard-user"></i></div>
+        <div class="ac-body">
+          <div class="ac-meta"><span><i class="fa-regular fa-calendar"></i> [วันที่]</span><span><i class="fa-solid fa-location-dot"></i> [สถานที่]</span></div>
+          <h3>[ชื่อการอบรม]</h3>
+          <p class="ac-role">บทบาท: ผู้เข้ารับการอบรม</p>
+          <p class="ac-desc">เข้าร่วมอบรมเพื่อพัฒนาความรู้และทักษะเฉพาะทางที่เกี่ยวข้องกับสาขาวิชา</p>
+          <p class="ac-gain"><i class="fa-solid fa-star"></i> ได้รับ: ความรู้และทักษะเฉพาะทาง</p>
+        </div>
+      </div>
+
+      <div class="activity-card" data-category="competition">
+        <div class="ac-image"><span class="ac-cat-badge">แข่งขัน</span><i class="fa-solid fa-trophy"></i></div>
+        <div class="ac-body">
+          <div class="ac-meta"><span><i class="fa-regular fa-calendar"></i> [วันที่]</span><span><i class="fa-solid fa-location-dot"></i> [สถานที่]</span></div>
+          <h3>[ชื่อการแข่งขัน]</h3>
+          <p class="ac-role">บทบาท: ผู้เข้าแข่งขัน</p>
+          <p class="ac-desc">เข้าร่วมการแข่งขันเพื่อทดสอบและพัฒนาทักษะการแก้ปัญหาภายใต้ระยะเวลาที่จำกัด</p>
+          <p class="ac-gain"><i class="fa-solid fa-star"></i> ได้รับ: ทักษะการแก้ปัญหาเฉพาะหน้า</p>
+        </div>
+      </div>
+
+      <div class="activity-card" data-category="faculty">
+        <div class="ac-image"><span class="ac-cat-badge">คณะ</span><i class="fa-solid fa-building-columns"></i></div>
+        <div class="ac-body">
+          <div class="ac-meta"><span><i class="fa-regular fa-calendar"></i> [วันที่]</span><span><i class="fa-solid fa-location-dot"></i> [สถานที่]</span></div>
+          <h3>[ชื่อกิจกรรมคณะ]</h3>
+          <p class="ac-role">บทบาท: ผู้เข้าร่วม</p>
+          <p class="ac-desc">ร่วมกิจกรรมของคณะวิทยาการคอมพิวเตอร์ เพื่อเสริมสร้างความสัมพันธ์ในหมู่นักศึกษาสาขาเดียวกัน</p>
+          <p class="ac-gain"><i class="fa-solid fa-star"></i> ได้รับ: ความสัมพันธ์อันดีในคณะ</p>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ============================================================
+     PROJECTS
+     ============================================================ -->
+<section class="section" id="projects">
+  <div class="container">
+    <div class="section-heading reveal">
+      <div class="icon-badge"><i class="fa-solid fa-diagram-project"></i></div>
+      <h2>ผลงาน / Projects</h2>
+      <p>ตัวอย่างผลงานและโครงการที่ได้พัฒนาระหว่างการศึกษา</p>
+      <div class="section-accent-line"></div>
+    </div>
+
+    <div class="filter-bar reveal" id="projectFilter">
+      <button class="filter-btn active" data-filter="all">ทั้งหมด</button>
+      <button class="filter-btn" data-filter="web">Web Development</button>
+      <button class="filter-btn" data-filter="data">Data</button>
+      <button class="filter-btn" data-filter="uxui">UX/UI</button>
+    </div>
+
+    <div class="card-grid-3 reveal" id="projectGrid">
+
+      <div class="project-card" data-category="web"
+           data-name="Student Skill Sharing Platform"
+           data-desc="แพลตฟอร์มสำหรับให้นักศึกษาแบ่งปันและแลกเปลี่ยนทักษะระหว่างกัน ออกแบบ UX ให้ใช้งานง่ายและพัฒนาแบบ Responsive"
+           data-tech="HTML, CSS, JavaScript"
+           data-role="UX/UI + Developer"
+           data-date="[เดือน/ปี]">
+        <div class="pc-image"><i class="fa-solid fa-people-arrows"></i></div>
+        <div class="pc-body">
+          <div class="pc-top-row"><span class="pc-category">Web Development</span><span class="pc-date">[เดือน/ปี]</span></div>
+          <h3>Student Skill Sharing Platform</h3>
+          <p class="pc-desc">แพลตฟอร์มสำหรับให้นักศึกษาแบ่งปันและแลกเปลี่ยนทักษะระหว่างกัน</p>
+          <div class="pc-tech"><span>HTML</span><span>CSS</span><span>JavaScript</span></div>
+          <p class="pc-role">บทบาท: <strong>UX/UI + Developer</strong></p>
+          <button class="btn btn-outline btn-sm btn-block project-detail-btn">ดูรายละเอียด</button>
+        </div>
+      </div>
+
+      <div class="project-card" data-category="data"
+           data-name="[ชื่อ Project วิเคราะห์ข้อมูล]"
+           data-desc="โครงการวิเคราะห์ข้อมูลด้วย Python เพื่อสร้าง Dashboard สรุปผลที่เข้าใจง่าย"
+           data-tech="Python, Pandas, Power BI"
+           data-role="Data Analyst"
+           data-date="[เดือน/ปี]">
+        <div class="pc-image"><i class="fa-solid fa-chart-pie"></i></div>
+        <div class="pc-body">
+          <div class="pc-top-row"><span class="pc-category">Data</span><span class="pc-date">[เดือน/ปี]</span></div>
+          <h3>[ชื่อ Project วิเคราะห์ข้อมูล]</h3>
+          <p class="pc-desc">โครงการวิเคราะห์ข้อมูลด้วย Python เพื่อสร้าง Dashboard สรุปผลที่เข้าใจง่าย</p>
+          <div class="pc-tech"><span>Python</span><span>Pandas</span><span>Power BI</span></div>
+          <p class="pc-role">บทบาท: <strong>Data Analyst</strong></p>
+          <button class="btn btn-outline btn-sm btn-block project-detail-btn">ดูรายละเอียด</button>
+        </div>
+      </div>
+
+      <div class="project-card" data-category="uxui"
+           data-name="[ชื่อ Project ออกแบบ UX/UI]"
+           data-desc="ออกแบบ Wireframe และ Prototype สำหรับแอปพลิเคชันต้นแบบ พร้อมทดสอบ User Flow"
+           data-tech="Figma, Wireframe, Prototype"
+           data-role="UX/UI Designer"
+           data-date="[เดือน/ปี]">
+        <div class="pc-image"><i class="fa-solid fa-pen-ruler"></i></div>
+        <div class="pc-body">
+          <div class="pc-top-row"><span class="pc-category">UX/UI</span><span class="pc-date">[เดือน/ปี]</span></div>
+          <h3>[ชื่อ Project ออกแบบ UX/UI]</h3>
+          <p class="pc-desc">ออกแบบ Wireframe และ Prototype สำหรับแอปพลิเคชันต้นแบบ พร้อมทดสอบ User Flow</p>
+          <div class="pc-tech"><span>Figma</span><span>Wireframe</span><span>Prototype</span></div>
+          <p class="pc-role">บทบาท: <strong>UX/UI Designer</strong></p>
+          <button class="btn btn-outline btn-sm btn-block project-detail-btn">ดูรายละเอียด</button>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ============================================================
+     CERTIFICATES
+     ============================================================ -->
+<section class="section section-alt" id="certificates">
+  <div class="container">
+    <div class="section-heading reveal">
+      <div class="icon-badge"><i class="fa-solid fa-certificate"></i></div>
+      <h2>เกียรติบัตรและการอบรม</h2>
+      <p>รวบรวมเกียรติบัตรและใบรับรองจากการอบรมต่าง ๆ</p>
+      <div class="section-accent-line"></div>
+    </div>
+
+    <div class="cert-grid reveal" id="certGrid">
+      <div class="cert-card"
+           data-name="[ชื่อเกียรติบัตร 1]" data-org="[หน่วยงานผู้ออก]" data-date="[วันที่]" data-type="การอบรม">
+        <div class="cc-image"><i class="fa-solid fa-award"></i></div>
+        <div class="cc-body">
+          <h4>[ชื่อเกียรติบัตร 1]</h4>
+          <p class="cc-org">[หน่วยงานผู้ออก]</p>
+          <p class="cc-date">[วันที่]</p>
+          <span class="cc-type-tag">การอบรม</span>
+        </div>
+      </div>
+      <div class="cert-card"
+           data-name="[ชื่อเกียรติบัตร 2]" data-org="[หน่วยงานผู้ออก]" data-date="[วันที่]" data-type="กิจกรรม">
+        <div class="cc-image"><i class="fa-solid fa-award"></i></div>
+        <div class="cc-body">
+          <h4>[ชื่อเกียรติบัตร 2]</h4>
+          <p class="cc-org">[หน่วยงานผู้ออก]</p>
+          <p class="cc-date">[วันที่]</p>
+          <span class="cc-type-tag">กิจกรรม</span>
+        </div>
+      </div>
+      <div class="cert-card"
+           data-name="[ชื่อเกียรติบัตร 3]" data-org="[หน่วยงานผู้ออก]" data-date="[วันที่]" data-type="การแข่งขัน">
+        <div class="cc-image"><i class="fa-solid fa-award"></i></div>
+        <div class="cc-body">
+          <h4>[ชื่อเกียรติบัตร 3]</h4>
+          <p class="cc-org">[หน่วยงานผู้ออก]</p>
+          <p class="cc-date">[วันที่]</p>
+          <span class="cc-type-tag">การแข่งขัน</span>
+        </div>
+      </div>
+      <div class="cert-card"
+           data-name="[ชื่อเกียรติบัตร 4]" data-org="[หน่วยงานผู้ออก]" data-date="[วันที่]" data-type="วิชาการ">
+        <div class="cc-image"><i class="fa-solid fa-award"></i></div>
+        <div class="cc-body">
+          <h4>[ชื่อเกียรติบัตร 4]</h4>
+          <p class="cc-org">[หน่วยงานผู้ออก]</p>
+          <p class="cc-date">[วันที่]</p>
+          <span class="cc-type-tag">วิชาการ</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============================================================
+     NEWS / ACTIVITY UPDATE
+     ============================================================ -->
+<section class="section" id="news">
+  <div class="container">
+    <div class="section-heading reveal">
+      <div class="icon-badge"><i class="fa-solid fa-newspaper"></i></div>
+      <h2>ข่าวสารและกิจกรรมล่าสุด</h2>
+      <p>อัปเดตความเคลื่อนไหวล่าสุดเกี่ยวกับการเรียนและกิจกรรมของฉัน</p>
+      <div class="section-accent-line"></div>
+    </div>
+
+    <div class="card-grid-3 reveal">
+      <div class="news-card">
+        <div class="news-meta"><span class="news-date">[วันที่]</span><span class="news-cat">กิจกรรมล่าสุด</span></div>
+        <h3>[ชื่อกิจกรรมล่าสุดที่เข้าร่วม]</h3>
+        <p>สรุปความเคลื่อนไหวล่าสุดจากการเข้าร่วมกิจกรรมของมหาวิทยาลัย</p>
+        <a href="#activities" class="news-link">อ่านเพิ่มเติม <i class="fa-solid fa-arrow-right"></i></a>
+      </div>
+      <div class="news-card">
+        <div class="news-meta"><span class="news-date">[วันที่]</span><span class="news-cat">โครงการล่าสุด</span></div>
+        <h3>[ชื่อโครงการล่าสุดที่พัฒนา]</h3>
+        <p>อัปเดตความคืบหน้าของโครงการที่กำลังพัฒนาอยู่ในปัจจุบัน</p>
+        <a href="#projects" class="news-link">อ่านเพิ่มเติม <i class="fa-solid fa-arrow-right"></i></a>
+      </div>
+      <div class="news-card">
+        <div class="news-meta"><span class="news-date">[วันที่]</span><span class="news-cat">การอบรมล่าสุด</span></div>
+        <h3>[ชื่อการอบรมล่าสุดที่เข้าร่วม]</h3>
+        <p>สรุปความรู้และทักษะใหม่ที่ได้รับจากการอบรมล่าสุด</p>
+        <a href="#certificates" class="news-link">อ่านเพิ่มเติม <i class="fa-solid fa-arrow-right"></i></a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============================================================
+     GOALS
+     ============================================================ -->
+<section class="section section-alt" id="goals">
+  <div class="container">
+    <div class="section-heading reveal">
+      <div class="icon-badge"><i class="fa-solid fa-flag-checkered"></i></div>
+      <h2>เป้าหมาย</h2>
+      <p>แผนการพัฒนาตนเองทั้งในระยะสั้นและระยะยาว</p>
+      <div class="section-accent-line"></div>
+    </div>
+
+    <div class="goals-grid reveal">
+      <div class="goal-column">
+        <div class="goal-column-head">
+          <div class="gc-icon"><i class="fa-solid fa-shoe-prints"></i></div>
+          <h3>Short-Term Goals</h3>
+        </div>
+        <div class="goal-roadmap">
+          <div class="goal-item"><h4>พัฒนาทักษะ Programming</h4><p>ฝึกฝนภาษาโปรแกรมมิ่งให้เชี่ยวชาญมากยิ่งขึ้น</p></div>
+          <div class="goal-item"><h4>พัฒนา UX/UI</h4><p>ฝึกออกแบบ Wireframe และ Prototype อย่างสม่ำเสมอ</p></div>
+          <div class="goal-item"><h4>เรียนรู้ Data Science</h4><p>ศึกษาการวิเคราะห์ข้อมูลเชิงลึกเพิ่มเติม</p></div>
+        </div>
+      </div>
+      <div class="goal-column">
+        <div class="goal-column-head">
+          <div class="gc-icon"><i class="fa-solid fa-mountain-sun"></i></div>
+          <h3>Long-Term Goals</h3>
+        </div>
+        <div class="goal-roadmap">
+          <div class="goal-item"><h4>ทำงานด้าน Software / Data / Technology</h4><p>เริ่มต้นเส้นทางอาชีพในสายเทคโนโลยีที่ชื่นชอบ</p></div>
+          <div class="goal-item"><h4>พัฒนาตัวเองเป็น Professional Developer</h4><p>สร้างมาตรฐานการทำงานที่เป็นมืออาชีพ</p></div>
+          <div class="goal-item"><h4>สร้างเทคโนโลยีที่ช่วยแก้ปัญหาให้ผู้ใช้</h4><p>พัฒนาผลิตภัณฑ์ที่สร้างคุณค่าให้แก่สังคม</p></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============================================================
+     CONTACT
+     ============================================================ -->
+<section class="section" id="contact">
+  <div class="container">
+    <div class="section-heading reveal">
+      <div class="icon-badge"><i class="fa-solid fa-envelope"></i></div>
+      <h2>ติดต่อ</h2>
+      <p>สามารถติดต่อฉันได้ตามช่องทางด้านล่าง หรือส่งข้อความผ่านแบบฟอร์ม</p>
+      <div class="section-accent-line"></div>
+    </div>
+
+    <div class="contact-grid reveal">
+      <div class="contact-cards">
+        <a href="mailto:example@email.com" class="contact-card">
+          <div class="cc-icon"><i class="fa-solid fa-envelope"></i></div>
+          <div><strong>Email</strong><span>[example@email.com]</span></div>
+        </a>
+        <a href="#" class="contact-card">
+          <div class="cc-icon"><i class="fa-brands fa-facebook-f"></i></div>
+          <div><strong>Facebook</strong><span>[ชื่อบัญชี Facebook]</span></div>
+        </a>
+        <a href="#" class="contact-card">
+          <div class="cc-icon"><i class="fa-brands fa-instagram"></i></div>
+          <div><strong>Instagram</strong><span>[@username]</span></div>
+        </a>
+        <a href="#" class="contact-card">
+          <div class="cc-icon"><i class="fa-brands fa-github"></i></div>
+          <div><strong>GitHub</strong><span>[github.com/username]</span></div>
+        </a>
+        <a href="#" class="contact-card">
+          <div class="cc-icon"><i class="fa-brands fa-linkedin-in"></i></div>
+          <div><strong>LinkedIn</strong><span>[linkedin.com/in/username]</span></div>
+        </a>
+      </div>
+
+      <div class="contact-form-card">
+        <div class="form-success" id="formSuccess">
+          <i class="fa-solid fa-circle-check"></i> ส่งข้อความเรียบร้อยแล้ว ขอบคุณสำหรับการติดต่อ!
+        </div>
+        <form id="contactForm" novalidate>
+          <div class="form-row">
+            <div class="form-group" id="group-name">
+              <label for="cf-name">ชื่อ</label>
+              <input type="text" id="cf-name" name="name" placeholder="กรอกชื่อของคุณ">
+              <span class="form-error">กรุณากรอกชื่อ</span>
+            </div>
+            <div class="form-group" id="group-email">
+              <label for="cf-email">Email</label>
+              <input type="email" id="cf-email" name="email" placeholder="example@email.com">
+              <span class="form-error">กรุณากรอกอีเมลให้ถูกต้อง</span>
+            </div>
+          </div>
+          <div class="form-group" id="group-subject">
+            <label for="cf-subject">หัวข้อ</label>
+            <input type="text" id="cf-subject" name="subject" placeholder="หัวข้อที่ต้องการติดต่อ">
+            <span class="form-error">กรุณากรอกหัวข้อ</span>
+          </div>
+          <div class="form-group" id="group-message">
+            <label for="cf-message">ข้อความ</label>
+            <textarea id="cf-message" name="message" placeholder="รายละเอียดข้อความ..."></textarea>
+            <span class="form-error">กรุณากรอกข้อความอย่างน้อย 10 ตัวอักษร</span>
+          </div>
+          <button type="submit" class="btn btn-primary btn-block"><i class="fa-solid fa-paper-plane"></i> ส่งข้อความ</button>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<!-- ============================================================
+     FOOTER
+     ============================================================ -->
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-col">
+        <div class="footer-brand">
+          <div class="brand-mark">ชช</div>
+          <div>
+            <strong>[ชื่อ-นามสกุล]</strong>
+            <span>Computer Science Student</span>
+          </div>
+        </div>
+        <p>สาขาวิทยาการคอมพิวเตอร์</p>
+        <p>มหาวิทยาลัยขอนแก่น</p>
+        <div class="footer-social">
+          <a href="#" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+          <a href="#" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+          <a href="#" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+          <a href="#" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+        </div>
+      </div>
+      <div class="footer-col">
+        <h4>เมนูเว็บไซต์</h4>
+        <ul>
+          <li><a href="#home">หน้าแรก</a></li>
+          <li><a href="#about">เกี่ยวกับฉัน</a></li>
+          <li><a href="#education">การศึกษา</a></li>
+          <li><a href="#skills">ทักษะ</a></li>
+          <li><a href="#experience">ประสบการณ์</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>ผลงาน</h4>
+        <ul>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#activities">Activities</a></li>
+          <li><a href="#certificates">Certificates</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>ติดต่อ</h4>
+        <ul>
+          <li><a href="mailto:example@email.com">[example@email.com]</a></li>
+          <li><a href="#contact">Social Media</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>&copy; 2026 Personal Portfolio</span>
+      <span>Computer Science Student · Khon Kaen University</span>
+    </div>
+  </div>
+</footer>
+
+<!-- Back to Top -->
+<button class="back-to-top" id="backToTop" aria-label="กลับขึ้นด้านบน"><i class="fa-solid fa-arrow-up"></i></button>
+
+<!-- ============================================================
+     MODALS
+     ============================================================ -->
+<div class="modal-overlay" id="certModal">
+  <div class="modal-box">
+    <button class="modal-close" id="certModalClose" aria-label="ปิด"><i class="fa-solid fa-xmark"></i></button>
+    <div class="modal-image"><i class="fa-solid fa-award"></i></div>
+    <div class="modal-content">
+      <span class="modal-tag" id="certModalType">ประเภท</span>
+      <h3 id="certModalName">ชื่อเกียรติบัตร</h3>
+      <div class="modal-meta-list">
+        <div><span>หน่วยงาน:</span><span id="certModalOrg">-</span></div>
+        <div><span>วันที่:</span><span id="certModalDate">-</span></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="modal-overlay" id="projectModal">
+  <div class="modal-box">
+    <button class="modal-close" id="projectModalClose" aria-label="ปิด"><i class="fa-solid fa-xmark"></i></button>
+    <div class="modal-image"><i class="fa-solid fa-diagram-project"></i></div>
+    <div class="modal-content">
+      <h3 id="projectModalName">ชื่อ Project</h3>
+      <p id="projectModalDesc" class="text-muted" style="margin-bottom:16px;">รายละเอียด</p>
+      <div class="modal-meta-list">
+        <div><span>Technology:</span><span id="projectModalTech">-</span></div>
+        <div><span>My Role:</span><span id="projectModalRole">-</span></div>
+        <div><span>วันที่:</span><span id="projectModalDate">-</span></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
